@@ -10,6 +10,8 @@ var productController=function (req, res) {
 			{Name:'Shoes',category:"Footwear",price:'4000',quantity:150},
 			{Name:'Lays',category:"Fooditems",price:'200',quantity:20},
 			{Name:'Samsung',category:"Mobiles",price:'20000',quantity:2},
+	 {Name:'Fans',category:'Appliances',price:"1500",quantity:120}
+
             
       ];
   res.send(products);
